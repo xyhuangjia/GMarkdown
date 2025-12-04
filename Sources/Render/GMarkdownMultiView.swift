@@ -87,7 +87,7 @@ extension UICollectionView {
 public class GMarkdownMultiView: UIView {
     // MARK: - Properties
     
-    private var collectionView: UICollectionView!
+    public var collectionView: UICollectionView!
     private var dataSource: UICollectionViewDiffableDataSource<Section, GMarkChunk>!
     
     public var handlerChain: GMarkHandlerChain = .init()
